@@ -9,6 +9,7 @@ let commentsTemplate = document.getElementById("comments-template").innerHTML
 let commentTemplate = document.getElementById("comment-template").innerHTML
 
 let templateFn = _.template(postTemplate)
+let pageTemplateFn = _.template(pageTemplate)
 
 let postsDiv = document.getElementById("posts")
 
