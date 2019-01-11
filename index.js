@@ -13,9 +13,12 @@ let pageTemplateFn = _.template(pageTemplate)
 
 let postsDiv = document.getElementById("posts")
 
+let pageTemplateHTML = pageTemplateFn
 let templateHTML = templateFn({title: title, postText: postText, author: author})
 
+document.innerHTML+=pageTemplateFn
 postsDiv.innerHTML += templateHTML
+
   }
 
 
